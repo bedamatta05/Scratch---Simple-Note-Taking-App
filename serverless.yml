@@ -19,7 +19,7 @@ provider:
   # under process.env.
   environment:
     tableName: notes
-    stripeSecretKey: ${env:sk_test_51IF16sAb3DdjGi3c1SGNrzVgMaeIXFt65KiaB6Lqv5o3E1OmO6qIR8TTvWzNjSEAJqUFwi2VJuan44NInBzTY7YH00cuFBJeWW}
+    
 
   # 'iamRoleStatements' defines the permission policy for the Lambda function.
   # In this case Lambda functions are granted with permissions to access DynamoDB.
