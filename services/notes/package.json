@@ -26,5 +26,8 @@
     "serverless": "^2.44.0",
     "stripe": "^8.150.0",
     "uuid": "^7.0.3"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.0.7"
   }
 }
