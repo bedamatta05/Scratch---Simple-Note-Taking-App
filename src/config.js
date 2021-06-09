@@ -1,36 +1,36 @@
 const dev = {
-  STRIPE_KEY: "YOUR_STRIPE_DEV_PUBLIC_KEY",
+  STRIPE_KEY: "pk_test_51IF16sAb3DdjGi3cqwkXRF1cmgN0u8z4is5iJzq5SqHb2LiuZXiTFPsXOyzcPH9UFMCuL2obgJ1FYX13Tsa7aanL00pFniEMMW",
   s3: {
-    REGION: "YOUR_DEV_S3_UPLOADS_BUCKET_REGION",
-    BUCKET: "YOUR_DEV_S3_UPLOADS_BUCKET_NAME"
+    REGION: "ap-south-1",
+    BUCKET: "dev-notes-infra-s3-uploads4f6eb0fd-1w9zinjj0puo4"
   },
   apiGateway: {
-    REGION: "YOUR_DEV_API_GATEWAY_REGION",
-    URL: "YOUR_DEV_API_GATEWAY_URL"
+    REGION: "ap-south-1",
+    URL: "https://ok7n0j7cib.execute-api.ap-south-1.amazonaws.com/dev"
   },
   cognito: {
-    REGION: "YOUR_DEV_COGNITO_REGION",
-    USER_POOL_ID: "YOUR_DEV_COGNITO_USER_POOL_ID",
-    APP_CLIENT_ID: "YOUR_DEV_COGNITO_APP_CLIENT_ID",
-    IDENTITY_POOL_ID: "YOUR_DEV_IDENTITY_POOL_ID"
+    REGION: "ap-south-1",
+    USER_POOL_ID: "ap-south-1_7qHq4gwGl",
+    APP_CLIENT_ID: "61t06r7ea5ecn13lben0nr6ik6",
+    IDENTITY_POOL_ID: "ap-south-1:1537a17e-69e0-428e-afc7-ddc2e3eda84c"
   }
 };
 
 const prod = {
-  STRIPE_KEY: "YOUR_STRIPE_PROD_PUBLIC_KEY",
+  STRIPE_KEY: "pk_test_51IF16sAb3DdjGi3cqwkXRF1cmgN0u8z4is5iJzq5SqHb2LiuZXiTFPsXOyzcPH9UFMCuL2obgJ1FYX13Tsa7aanL00pFniEMMW",
   s3: {
-    REGION: "YOUR_PROD_S3_UPLOADS_BUCKET_REGION",
-    BUCKET: "YOUR_PROD_S3_UPLOADS_BUCKET_NAME"
+    REGION: "ap-south-1",
+    BUCKET: "prod-notes-infra-s3-uploads4f6eb0fd-80qluv7hlkpp"
   },
   apiGateway: {
-    REGION: "YOUR_PROD_API_GATEWAY_REGION",
-    URL: "YOUR_PROD_API_GATEWAY_URL"
+    REGION: "ap-south-1",
+    URL: "https://wx592asuj5.execute-api.ap-south-1.amazonaws.com/prod"
   },
   cognito: {
-    REGION: "YOUR_PROD_COGNITO_REGION",
-    USER_POOL_ID: "YOUR_PROD_COGNITO_USER_POOL_ID",
-    APP_CLIENT_ID: "YOUR_PROD_COGNITO_APP_CLIENT_ID",
-    IDENTITY_POOL_ID: "YOUR_PROD_IDENTITY_POOL_ID"
+    REGION: "ap-south-1",
+    USER_POOL_ID: "ap-south-1_rPMOTR0eh",
+    APP_CLIENT_ID: "4cje23241is7nvbndb4ii9j0md",
+    IDENTITY_POOL_ID: "ap-south-1:2f70a52e-3bd1-4742-96be-44cbee2b7e71"
   }
 };
 
