@@ -7,3 +7,11 @@
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
   }
+
+  .searchBar{
+    margin-left: 0.2rem;
+  }
+
+  .search{
+    margin-left: 0.4rem;
+  }

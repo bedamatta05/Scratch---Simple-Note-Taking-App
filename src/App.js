@@ -30,6 +30,7 @@ function App() {
 
     setIsAuthenticating(false);
   }
+
   async function handleLogout() {
     await Auth.signOut();
 
