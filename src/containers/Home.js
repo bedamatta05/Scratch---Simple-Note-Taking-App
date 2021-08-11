@@ -67,6 +67,7 @@ export default function Home () {
             ) {
               return content
             }
+            return false;
           })
           .map(({ noteId, content, createdAt }) => (
             <LinkContainer key={noteId} to={`/notes/${noteId}`}>
